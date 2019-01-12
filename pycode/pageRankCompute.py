@@ -2,10 +2,6 @@ import csv
 import networkx as nx
 
 
-
-# FILE_NAME = "twitter_combined"
-
-
 def compute_pg(FILE_NAME):
     _CSV = ".csv"
     FILE_PATH = "../resultDataset/"
