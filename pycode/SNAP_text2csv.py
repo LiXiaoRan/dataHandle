@@ -1,41 +1,45 @@
 import csv
 
-#文件名
-FILENAME = 'gplus_combined.csv'
+# 文件名
+# FILENAME = 'twitter_combined.csv'
 
-#读取文件的文件夹路径
-FILEINNAME = '../dataset/'
-#结果文件的文件夹路径
-FILEOUTNAME = '../resultDataset/'
 
-# 读取文件的路径
-FILEINPATH = FILEINNAME + FILENAME
-# 结果文件的路径
-FILEOUTPATH = FILEOUTNAME + FILENAME
+def test2csv(FILENAME):
 
-csvFile = open(FILEINPATH, "r")
-csvoutFile = open(FILEOUTPATH, "w",newline='')
+    # 读取文件的文件夹路径
+    FILEINNAME = '../dataset/'
+    # 结果文件的文件夹路径
+    FILEOUTNAME = '../resultDataset/'
 
-reader = csv.reader(csvFile)
-writer = csv.writer(csvoutFile)
+    # 读取文件的路径
+    FILEINPATH = FILEINNAME + FILENAME
+    # 结果文件的路径
+    FILEOUTPATH = FILEOUTNAME + FILENAME
 
-list = []
-#读文件并且处理
-for item in reader:
-    result = item[0].split(' ')
-    # print(result)
-    list_item = {'source': result[0], 'target': result[1]}
-    print(list_item)
-    list.append(list_item)
+    csvFile = open(FILEINPATH, "r")
+    csvoutFile = open(FILEOUTPATH, "w", newline='')
 
-csvFile.close()
+    reader = csv.reader(csvFile)
+    writer = csv.writer(csvoutFile)
 
-# 讲处理后的文件写入csv中
-# head_info = ['source', 'target']
-# writer.writerow(head_info)
+    list = []
+    # 读文件并且处理
+    for item in reader:
+        result = item[0].split(' ')
+        # print(result)
+        list_item = {'source': result[0], 'target': result[1]}
+        print(list_item)
+        list.append(list_item)
 
-for item in list:
-    w_row = [item['source'], item['target']]
-    writer.writerow(w_row)
+    csvFile.close()
 
-csvoutFile.close()
+    # 讲处理后的文件写入csv中
+    # head_info = ['source', 'target']
+    # writer.writerow(head_info)
+
+    for item in list:
+        w_row = [item['source'], item['target']]
+        writer.writerow(w_row)
+
+    csvoutFile.close()
+    return "finsh test2csv "
