@@ -31,7 +31,7 @@ def closeness_centrality_compute(FILE_NAME):
 
     print("开始讲计算结果存入csv")
     for node_id in node_list:
-        print(node_id, result[node_id])
+        # print(node_id, result[node_id])
         writer.writerow([node_id, result[node_id]])
 
     csvFile.close()
@@ -39,4 +39,10 @@ def closeness_centrality_compute(FILE_NAME):
     return "closeness_centrality compute finsh "
 
 
-closeness_centrality_compute("Cit_HepPh")
+closeness_centrality_compute("Email_EuAll")
+closeness_centrality_compute("gplus_combined")
+closeness_centrality_compute("Slashdot0902")
+closeness_centrality_compute("twitter_combined")
+closeness_centrality_compute("web_Google")
+closeness_centrality_compute("web_NotreDame")
+closeness_centrality_compute("web_Stanford")
