@@ -1,5 +1,6 @@
 import csv
 import networkx as nx
+from multiprocessing.dummy import Pool as ThreadPool
 
 
 def closeness_centrality_compute(FILE_NAME):
@@ -25,7 +26,7 @@ def closeness_centrality_compute(FILE_NAME):
 
     node_list = graph.nodes
 
-    print("closeness_centrality")
+    print("开始计算 closeness_centrality")
     result = nx.closeness_centrality(graph, wf_improved=True)
     print("closeness_centrality计算结果: ", result)
 
@@ -36,13 +37,25 @@ def closeness_centrality_compute(FILE_NAME):
 
     csvFile.close()
     csvoutFile.close()
-    return "closeness_centrality compute finsh "
+    print("closeness_centrality compute finshed ")
+    return "closeness_centrality compute finshed "
 
 
-closeness_centrality_compute("Email_EuAll")
-closeness_centrality_compute("gplus_combined")
-closeness_centrality_compute("Slashdot0902")
-closeness_centrality_compute("twitter_combined")
-closeness_centrality_compute("web_Google")
-closeness_centrality_compute("web_NotreDame")
-closeness_centrality_compute("web_Stanford")
+# closeness_centrality_compute("Email_EuAll")
+# closeness_centrality_compute("gplus_combined")
+# closeness_centrality_compute("Slashdot0902")
+# closeness_centrality_compute("twitter_combined")
+# closeness_centrality_compute("web_Google")
+# closeness_centrality_compute("web_NotreDame")
+# closeness_centrality_compute("web_Stanford")
+
+# Make the Pool of workers
+pool = ThreadPool(7)
+# Open the urls in their own threads
+# and return the results
+results = pool.map(closeness_centrality_compute,
+                   ["Email_EuAll", "gplus_combined", "Slashdot0902", "twitter_combined", "web_Google", "web_NotreDame",
+                    "web_Stanford"])
+# close the pool and wait for the work to finish
+pool.close()
+pool.join()
