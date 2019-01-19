@@ -16,28 +16,28 @@ def closeness_centrality_compute(FILE_NAME):
     reader = csv.reader(csvFile)
     writer = csv.writer(csvoutFile)
 
-    print("文件读取完毕")
+    print(FILE_NAME, " 文件读取完毕")
 
     graph = nx.DiGraph()
 
-    print("开始构建有向图")
+    print(FILE_NAME," 开始构建有向图")
     for item in reader:
         graph.add_edge(item[0], item[1])
 
     node_list = graph.nodes
 
-    print("开始计算 closeness_centrality")
+    print("开始计算 closeness_centrality ",FILE_NAME)
     result = nx.closeness_centrality(graph, wf_improved=True)
-    print("closeness_centrality计算结果: ", result)
+    print(FILE_NAME," closeness_centrality计算结果: ", result)
 
-    print("开始讲计算结果存入csv")
+    print("开始讲计算结果存入csv ",FILE_NAME)
     for node_id in node_list:
         # print(node_id, result[node_id])
         writer.writerow([node_id, result[node_id]])
 
     csvFile.close()
     csvoutFile.close()
-    print("closeness_centrality compute finshed ")
+    print("closeness_centrality compute finshed ",FILE_NAME)
     return "closeness_centrality compute finshed "
 
 

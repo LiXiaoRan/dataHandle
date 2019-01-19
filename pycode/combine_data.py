@@ -42,4 +42,4 @@ def merge_data(FILE_NAME):
     csvoutFile.close()
 
 
-merge_data("Cit_HepPh")
+merge_data("facebook_combined2")
