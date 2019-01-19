@@ -50,7 +50,7 @@ def closeness_centrality_compute(FILE_NAME):
 # closeness_centrality_compute("web_Stanford")
 
 # Make the Pool of workers
-pool = ThreadPool(7)
+pool = ThreadPool(24)
 # Open the urls in their own threads
 # and return the results
 results = pool.map(closeness_centrality_compute,
