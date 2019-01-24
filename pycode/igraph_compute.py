@@ -1,5 +1,7 @@
 from igraph import *
 import csv
+import os
+
 
 
 def compute_cc(FILE_NAME):
@@ -30,6 +32,7 @@ def compute_cc(FILE_NAME):
         source = nodes.index(item[0])
         target = nodes.index(item[1])
         links.append((source, target))
+        print("添加边：",source, target)
 
     graph.add_vertices(len(nodes))
     graph.add_edges(links)
@@ -51,4 +54,4 @@ def compute_cc(FILE_NAME):
     print(FILE_NAME, " 的结果成功存入文件")
 
 
-compute_cc("facebook_combined2")
+compute_cc("gplus_combined")
