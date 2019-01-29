@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pycode/pandas_igraph_compute.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycode/testTime.py" afterDir="false" />
+    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="算完了除gplus外所有数据的中心性">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/igraph_compute.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/igraph_compute.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycode/combine_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/combine_data.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +14,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dataHandle$testTime.coverage" NAME="testTime Coverage Results" MODIFIED="1548332450736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$SNAP_text2csv.coverage" NAME="SNAP_text2csv Coverage Results" MODIFIED="1547259758137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
-    <SUITE FILE_PATH="coverage/dataHandle$combine_data.coverage" NAME="combine_data Coverage Results" MODIFIED="1547696445165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$combine_data.coverage" NAME="combine_data Coverage Results" MODIFIED="1548734409775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$google_plus.coverage" NAME="google_plus Coverage Results" MODIFIED="1547194446446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$closeness_centralityCompute.coverage" NAME="closeness_centralityCompute Coverage Results" MODIFIED="1547689836735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$pageRankCompute.coverage" NAME="pageRankCompute Coverage Results" MODIFIED="1547262954625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
-    <SUITE FILE_PATH="coverage/dataHandle$pandas_igraph_compute.coverage" NAME="pandas_igraph_compute Coverage Results" MODIFIED="1548333626970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$pandas_igraph_compute.coverage" NAME="pandas_igraph_compute Coverage Results" MODIFIED="1548334627564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$main.coverage" NAME="main Coverage Results" MODIFIED="1547277738371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$igraph_compute.coverage" NAME="igraph_compute Coverage Results" MODIFIED="1548166715601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
   </component>
@@ -39,18 +37,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="67" />
+          <entry key="csv" value="69" />
           <entry key="gitignore" value="4" />
           <entry key="md" value="1" />
-          <entry key="py" value="10" />
+          <entry key="py" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="67" />
+          <entry key="CSV" value="69" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="10" />
+          <entry key="Python" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -58,27 +56,39 @@
           <entry key="Python Console" value="405" />
           <entry key="dummy" value="13" />
           <entry key="gitignore" value="13" />
-          <entry key="py" value="3784" />
-          <entry key="txt" value="269" />
+          <entry key="py" value="3798" />
+          <entry key="txt" value="322" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="295" />
-          <entry key="Python" value="4189" />
+          <entry key="PLAIN_TEXT" value="348" />
+          <entry key="Python" value="4203" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="45" selection-start-line="45" selection-end-line="47" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1548734405168" expanded="true" signature="262:393" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/closeness_centralityCompute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
+            <state relative-caret-position="38">
+              <caret line="2" column="31" selection-start-line="2" selection-end-line="3" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
                 <marker date="1547988504303" expanded="true" signature="132:133" ph="..." />
               </folding>
             </state>
@@ -86,34 +96,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-              <folding>
-                <marker date="1547988504304" expanded="true" signature="170:298" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/igraph_compute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycode/pandas_igraph_compute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="60" column="34" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="60" selection-end-column="34" />
+            <state relative-caret-position="779">
+              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <marker date="1548334236604" expanded="true" signature="152:157" ph="..." />
@@ -127,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/pycode/testTime.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
                 <marker date="1548332476338" expanded="true" signature="81:82" ph="..." />
@@ -140,15 +126,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultDataset/web_Stanford.csv">
           <provider selected="true" editor-type-id="LargeFileEditor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultDataset/facebook_combined2_cc.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76703">
-              <caret line="4037" column="25" selection-start-line="4037" selection-start-column="7" selection-end-line="4037" selection-end-column="25" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -167,19 +144,6 @@
               <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
               <folding>
                 <marker date="1547276502540" expanded="true" signature="80:81" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1547265151999" expanded="true" signature="79:80" ph="..." />
               </folding>
             </state>
           </provider>
@@ -218,10 +182,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/pycode/main.py" />
         <option value="$PROJECT_DIR$/pycode/closeness_centralityCompute.py" />
-        <option value="$PROJECT_DIR$/pycode/combine_data.py" />
         <option value="$PROJECT_DIR$/pycode/igraph_compute.py" />
         <option value="$PROJECT_DIR$/pycode/testTime.py" />
         <option value="$PROJECT_DIR$/pycode/pandas_igraph_compute.py" />
+        <option value="$PROJECT_DIR$/pycode/combine_data.py" />
       </list>
     </option>
   </component>
@@ -310,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pandas_igraph_compute">
+  <component name="RunManager" selected="Python.combine_data">
     <configuration name="closeness_centralityCompute" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -430,10 +394,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.combine_data" />
         <item itemvalue="Python.pandas_igraph_compute" />
         <item itemvalue="Python.testTime" />
         <item itemvalue="Python.igraph_compute" />
-        <item itemvalue="Python.combine_data" />
         <item itemvalue="Python.closeness_centralityCompute" />
       </list>
     </recent_temporary>
@@ -512,14 +476,28 @@
       <option name="project" value="LOCAL" />
       <updated>1547996547331</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="先就这样吧，别搞啥并行了，一天了，累死我了，效率也没提上来">
+      <created>1548334273344</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1548334273344</updated>
+    </task>
+    <task id="LOCAL-00011" summary="算完了除gplus外所有数据的中心性">
+      <created>1548727312142</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1548727312142</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23187633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23187633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -531,7 +509,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32996634" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="9" visible="true" weight="0.34744844" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" weight="0.34744844" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.31813246" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -559,7 +537,9 @@
     <MESSAGE value="采用map并行计算中心性" />
     <MESSAGE value="完成了把pagerank和中心性合起来的代码" />
     <MESSAGE value="完成igraph自动计算中心性的代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成igraph自动计算中心性的代码" />
+    <MESSAGE value="先就这样吧，别搞啥并行了，一天了，累死我了，效率也没提上来" />
+    <MESSAGE value="算完了除gplus外所有数据的中心性" />
+    <option name="LAST_COMMIT_MESSAGE" value="算完了除gplus外所有数据的中心性" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/dataset/gplus_combined.csv">
@@ -718,27 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/SNAP_text2csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-          <folding>
-            <marker date="1547276502540" expanded="true" signature="80:81" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547265151999" expanded="true" signature="79:80" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultDataset/Email_EuAll.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -764,34 +723,10 @@
     <entry file="file://$PROJECT_DIR$/igraph_result/Email_EuAll_cc.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/igraph_result/web_Google_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-          <folding>
-            <marker date="1547988504304" expanded="true" signature="170:298" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/closeness_centralityCompute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1547988504303" expanded="true" signature="132:133" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/testTime.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
             <marker date="1548332476338" expanded="true" signature="81:82" ph="..." />
@@ -800,10 +735,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/igraph_result/web_Google_cc.csv">
+      <provider editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/igraph_compute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="51" selection-start-line="51" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="73">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="37" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -812,12 +751,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pycode/pandas_igraph_compute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="60" column="34" lean-forward="true" selection-start-line="43" selection-start-column="3" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="779">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <marker date="1548334236604" expanded="true" signature="152:157" ph="..." />
             <marker date="1548334236604" expanded="true" signature="152:403" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultDataset/Email_EuAll_pg_cc.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1547265151999" expanded="true" signature="79:80" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/SNAP_text2csv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <marker date="1547276502540" expanded="true" signature="80:81" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/closeness_centralityCompute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-end-line="3" />
+          <folding>
+            <marker date="1547988504303" expanded="true" signature="132:133" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="45" selection-start-line="45" selection-end-line="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1548734405168" expanded="true" signature="262:393" ph="..." />
           </folding>
         </state>
       </provider>
