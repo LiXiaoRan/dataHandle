@@ -51,8 +51,7 @@ pool = ThreadPool(8)
 # Open the urls in their own threads
 # and return the results
 results = pool.map(merge_data,
-                   ["Slashdot0902", "twitter_combined", "web_Google", "web_NotreDame",
-                    "web_Stanford"])
+                   ["zhishi_baidu_relatedpages", "OutBlogs", "1138_bus","commanche_dual","fe_4elt2"])
 # close the pool and wait for the work to finish
 pool.close()
 pool.join()

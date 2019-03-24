@@ -42,7 +42,7 @@ def closeness_centrality_compute(FILE_NAME):
 
 
 # closeness_centrality_compute("Email_EuAll")
-closeness_centrality_compute("gplus_combined")
+closeness_centrality_compute("zhishi_baidu_relatedpages")
 # closeness_centrality_compute("Slashdot0902")
 # closeness_centrality_compute("twitter_combined")
 # closeness_centrality_compute("web_Google")

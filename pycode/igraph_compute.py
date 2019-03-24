@@ -54,4 +54,4 @@ def compute_cc(FILE_NAME):
     print(FILE_NAME, " 的结果成功存入文件")
 
 
-compute_cc("gplus_combined")
+compute_cc("fe_4elt2")

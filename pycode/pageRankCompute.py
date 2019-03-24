@@ -29,6 +29,8 @@ def compute_pg(FILE_NAME):
     result = nx.pagerank(graph)
     print("pagerank计算结果: ", result)
 
+    print(type (graph.nodes))
+
     print("开始讲计算结果存入csv")
     for node_id in node_list:
         print(node_id, result[node_id])

@@ -61,4 +61,4 @@ def compute_cc(FILE_NAME):
     print(FILE_NAME, " 的结果成功存入文件")
 
 
-compute_cc("web_Google")
+compute_cc("zhishi_baidu_internallink")
