@@ -26,7 +26,8 @@ def trans(FILENAME):
     list = []
     for item in reader:
         result = item[0].split(' ')
-        if result[0] != result[1] and int(result[0]) != (int(result[1]) + 1):  # 这里and后面只是针对fe_4elt2这个数据设置的判断条件
+        # if result[0] != result[1] and int(result[0]) != (int(result[1]) + 1):  # 这里and后面只是针对fe_4elt2这个数据设置的判断条件
+        if result[0] != result[1]:
             list_item = {'source': result[0], 'target': result[1]}
             print(list_item)
             list.append(list_item)
@@ -36,4 +37,4 @@ def trans(FILENAME):
         writer.writerow(w_row)
 
 
-trans('fe_4elt2')
+# trans('bcsstk31')

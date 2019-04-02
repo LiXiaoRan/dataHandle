@@ -55,4 +55,4 @@ def snap_cc_compute(FILE_NAME):
     print("succesfull")
 
 
-snap_cc_compute("zhishi_baidu_internallink")
+snap_cc_compute("3elt")
