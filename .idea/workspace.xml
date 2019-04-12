@@ -2,65 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/1138_bus.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/1138_bus_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/1138_bus_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepPh.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepPh_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepPh_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepPh_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepTh.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepTh_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Cit_HepTh_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Email_EuAll.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Email_EuAll_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Email_EuAll_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Email_EuAll_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/OutBlogs.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/OutBlogs_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/OutBlogs_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/OutBlogs_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Slashdot0902.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Slashdot0902_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Slashdot0902_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/Slashdot0902_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/commanche_dual.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/commanche_dual_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/commanche_dual_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/facebook_combined2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/facebook_combined2_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/facebook_combined2_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/facebook_combined2_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/fe_4elt2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/fe_4elt2_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/fe_4elt2_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/gplus_combined.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/gplus_combined_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/gplus_combined_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/twitter_combined.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/twitter_combined_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/twitter_combined_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/twitter_combined_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Google.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Google_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Google_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Google_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_NotreDame.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_NotreDame_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_NotreDame_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_NotreDame_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Stanford.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Stanford_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Stanford_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/web_Stanford_pg_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/zhishi_baidu_internallink_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/zhishi_baidu_relatedpages.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/zhishi_baidu_relatedpages_cc.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/zhishi_baidu_relatedpages_pg.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resultDataset/resultDataset/zhishi_baidu_relatedpages_pg_cc.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/vega-liteData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycode/experimentResult2Json.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycode/json2CSV.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resultDataset/vega-liteData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/drawCharts.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/drawCharts.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/render.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,41 +26,44 @@
     <SUITE FILE_PATH="coverage/dataHandle$mtx2csv.coverage" NAME="mtx2csv Coverage Results" MODIFIED="1553519819560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$igraph_compute.coverage" NAME="igraph_compute Coverage Results" MODIFIED="1548166715601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$main.coverage" NAME="main Coverage Results" MODIFIED="1553520582982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$experimentResult2Json.coverage" NAME="experimentResult2Json Coverage Results" MODIFIED="1555039134251" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="300795651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="113" />
+          <entry key="csv" value="116" />
           <entry key="gitignore" value="4" />
           <entry key="html" value="10" />
+          <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="26" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="113" />
+          <entry key="CSV" value="116" />
           <entry key="HTML" value="10" />
+          <entry key="JSON" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="26" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -122,14 +71,14 @@
           <entry key="Python Console" value="472" />
           <entry key="dummy" value="13" />
           <entry key="gitignore" value="13" />
-          <entry key="py" value="4309" />
+          <entry key="py" value="4648" />
           <entry key="txt" value="434" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="460" />
-          <entry key="Python" value="4781" />
+          <entry key="Python" value="5120" />
         </counts>
       </usages-collector>
     </session>
@@ -145,14 +94,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pycode/csv2structJson.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pycode/experimentResult2Json.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="268">
+              <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
+                <marker date="1555039134220" expanded="true" signature="767:769" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resultDataset/vega-liteData.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="144" column="22" lean-forward="true" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -235,6 +203,8 @@
         <option value="$PROJECT_DIR$/pycode/csv2structJson.py" />
         <option value="$PROJECT_DIR$/pycode/drawCharts.py" />
         <option value="$PROJECT_DIR$/pycode/line.html" />
+        <option value="$PROJECT_DIR$/pycode/json2CSV.py" />
+        <option value="$PROJECT_DIR$/pycode/experimentResult2Json.py" />
       </list>
     </option>
   </component>
@@ -266,6 +236,16 @@
             <path>
               <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataHandle" type="462c0819:PsiDirectoryNode" />
+              <item name="dataset" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataHandle" type="462c0819:PsiDirectoryNode" />
+              <item name="igraph_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dataHandle" type="462c0819:PsiDirectoryNode" />
               <item name="PosData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -293,127 +273,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PyCharm workspace\dataHandle\dataset" />
-      <recent name="E:\PyCharm workspace\dataHandle\pycode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PyCharm workspace\dataHandle\PosData" />
       <recent name="E:\PyCharm workspace\dataHandle\dataset" />
+      <recent name="E:\PyCharm workspace\dataHandle\PosData" />
       <recent name="E:\PyCharm workspace\dataHandle\igraph_result" />
       <recent name="E:\PyCharm workspace\dataHandle\resultDataset" />
       <recent name="E:\PyCharm workspace\dataHandle\pycode" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/igraph_result/zhishi_baidu_internallink_cc.csv</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PyCharm workspace\dataHandle\dataset" />
+      <recent name="E:\PyCharm workspace\dataHandle\pycode" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -432,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.drawCharts">
+  <component name="RunManager" selected="Python.experimentResult2Json">
     <configuration name="combine_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -469,6 +339,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/drawCharts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="experimentResult2Json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dataHandle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/experimentResult2Json.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -521,42 +413,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pandas_igraph_compute" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dataHandle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/pandas_igraph_compute.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.combine_data" />
-      <item itemvalue="Python.pandas_igraph_compute" />
       <item itemvalue="Python.mtx2csv" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.drawCharts" />
+      <item itemvalue="Python.experimentResult2Json" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.experimentResult2Json" />
         <item itemvalue="Python.drawCharts" />
         <item itemvalue="Python.combine_data" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mtx2csv" />
-        <item itemvalue="Python.pandas_igraph_compute" />
       </list>
     </recent_temporary>
   </component>
@@ -697,7 +567,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25053304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -709,9 +579,9 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32899022" />
-      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49946696" weight="0.345987" />
+      <window_info anchor="bottom" id="Run Dashboard" order="9" sideWeight="0.49946696" visible="true" weight="0.34527686" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" visible="true" weight="0.31813246" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49840087" weight="0.31813246" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.34636265" />
       <window_info anchor="bottom" id="Python Console" order="13" weight="0.3286334" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -774,24 +644,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="添加了pyecharts的图表绘制代码" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pycode/testTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/web_Stanford.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/SNAP_text2csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/resultDataset/1138_bus.csv" />
     <entry file="file://$PROJECT_DIR$/resultDataset/zhishi_baidu_internallink_pg.csv">
       <provider selected="true" editor-type-id="LargeFileEditor" />
     </entry>
@@ -808,13 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -952,10 +797,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+    <entry file="file://$PROJECT_DIR$/pycode/render.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="24" selection-start-line="16" selection-end-line="17" />
+        <state relative-caret-position="139">
+          <caret line="26" column="4374" selection-start-line="26" selection-start-column="4374" selection-end-line="26" selection-end-column="4374" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/line.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/drawCharts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -987,37 +846,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/render.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="26" column="4374" selection-start-line="26" selection-start-column="4374" selection-end-line="26" selection-end-column="4374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="86" column="30" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/drawCharts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycode/csv2structJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="171">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="24" selection-start-line="16" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/vega-liteData.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/json2CSV.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/experimentResult2Json.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="20" column="71" lean-forward="true" selection-start-line="20" selection-start-column="71" selection-end-line="20" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1555039134220" expanded="true" signature="767:769" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultDataset/vega-liteData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="144" column="22" lean-forward="true" selection-start-line="144" selection-start-column="22" selection-end-line="144" selection-end-column="22" />
         </state>
       </provider>
     </entry>
