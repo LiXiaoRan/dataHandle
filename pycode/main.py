@@ -1,7 +1,7 @@
 import SNAP_text2csv
 import mtx2csv
 import pageRankCompute
-MAIN_FILE_NAME = "3elt"
+MAIN_FILE_NAME = "Delor338K"
 
 # 开始自动转csv
 # print(SNAP_text2csv.test2csv(MAIN_FILE_NAME+'.csv'))

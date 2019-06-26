@@ -55,4 +55,4 @@ def snap_cc_compute(FILE_NAME):
     print("succesfull")
 
 
-snap_cc_compute("3elt")
+snap_cc_compute("Delor338K")
