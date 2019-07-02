@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="完成了QNoack布局质量指标评价的代码，并且测试成功">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/1138_bus.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/3elt.csv_500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/Blogs.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/Email_EuAll.csv_500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/Email_EuAll.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/commanche_dual.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/facebook_combined2.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/fe_4elt2.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/twitter_combined.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/web_Google.csv_500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/web_Google.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/web_NotreDame.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/web_Stanford.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_500.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_5000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycode/QualityMeasureGephi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycode/processGEXF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/QualityMeasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/QualityMeasure.py" afterDir="false" />
-    </list>
+    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +30,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.17" value="6" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="4" />
@@ -62,7 +40,7 @@
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="23" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -92,12 +70,12 @@
           <entry key="dummy" value="14" />
           <entry key="gitignore" value="13" />
           <entry key="py" value="6296" />
-          <entry key="txt" value="502" />
+          <entry key="txt" value="532" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="529" />
+          <entry key="PLAIN_TEXT" value="559" />
           <entry key="Python" value="6971" />
         </counts>
       </usages-collector>
@@ -108,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
+            <state relative-caret-position="1710">
               <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -120,7 +98,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-397">
+            <state relative-caret-position="323">
               <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -133,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/layout_position/experiment_gephi_save.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -141,8 +119,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+            <state relative-caret-position="203">
+              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
@@ -561,14 +539,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561558100520</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="完成了QNoack布局质量指标评价的代码，已经计算了中小型网络，本算法个gephi中的对比算法">
+      <created>1562072066407</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1562072066407</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27567238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -581,7 +566,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32772166" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.4298541" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.41585234" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.34636265" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49840087" weight="0.33108866" />
@@ -668,7 +653,8 @@
     <MESSAGE value="添加了pyecharts的图表绘制代码" />
     <MESSAGE value="增加了实验结果的csv2json和json2csv" />
     <MESSAGE value="完成了QNoack布局质量指标评价的代码，并且测试成功" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了QNoack布局质量指标评价的代码，并且测试成功" />
+    <MESSAGE value="完成了QNoack布局质量指标评价的代码，已经计算了中小型网络，本算法个gephi中的对比算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了QNoack布局质量指标评价的代码，已经计算了中小型网络，本算法个gephi中的对比算法" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pycode/render.html">
@@ -886,9 +872,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="44" column="28" selection-start-line="44" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,20 +879,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="344">
           <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="e#41#52#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycode/testTime.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pycode/main.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -932,20 +906,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-397">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="1710">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
+    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="323">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -955,14 +929,14 @@
     <entry file="file://$PROJECT_DIR$/layout_position/experiment_gephi_save.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+        <state relative-caret-position="203">
+          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
