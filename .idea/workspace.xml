@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/layout_position/3elt.csv_5000.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pycode/QualityMeasure.py" afterDir="false" />
+    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="完成了QNoack布局质量指标评价的代码，并且测试成功">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/1138_bus.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/3elt.csv_500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/Blogs.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/Email_EuAll.csv_500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/Email_EuAll.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/commanche_dual.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/facebook_combined2.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/fe_4elt2.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/twitter_combined.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/web_Google.csv_500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/web_Google.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/web_NotreDame.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/web_Stanford.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_500.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_5000.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_5000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycode/QualityMeasureGephi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pycode/processGEXF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pycode/snap_cc.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/snap_cc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycode/QualityMeasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/QualityMeasure.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,10 +34,11 @@
     <SUITE FILE_PATH="coverage/dataHandle$testTime.coverage" NAME="testTime Coverage Results" MODIFIED="1548332450736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$combine_data.coverage" NAME="combine_data Coverage Results" MODIFIED="1553523230555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$QualityMeasureCom.coverage" NAME="QualityMeasureCom Coverage Results" MODIFIED="1561462888328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
-    <SUITE FILE_PATH="coverage/dataHandle$QualityMeasure.coverage" NAME="QualityMeasure Coverage Results" MODIFIED="1561557696674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$QualityMeasure.coverage" NAME="QualityMeasure Coverage Results" MODIFIED="1561903091616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$pandas_igraph_compute.coverage" NAME="pandas_igraph_compute Coverage Results" MODIFIED="1548334627564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$mtx2csv.coverage" NAME="mtx2csv Coverage Results" MODIFIED="1557129120985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$igraph_compute.coverage" NAME="igraph_compute Coverage Results" MODIFIED="1548166715601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$QualityMeasureGephi.coverage" NAME="QualityMeasureGephi Coverage Results" MODIFIED="1562033920157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$SNAP_text2csv.coverage" NAME="SNAP_text2csv Coverage Results" MODIFIED="1547259758137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$google_plus.coverage" NAME="google_plus Coverage Results" MODIFIED="1547194446446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$closeness_centralityCompute.coverage" NAME="closeness_centralityCompute Coverage Results" MODIFIED="1547689836735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
@@ -34,53 +51,54 @@
     <session id="300795651">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.17" value="6" />
           <entry key="project.open.time.18" value="3" />
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.20" value="2" />
           <entry key="project.open.time.21" value="3" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="128" />
+          <entry key="csv" value="146" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="10" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
-          <entry key="py" value="35" />
+          <entry key="py" value="44" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="128" />
+          <entry key="CSV" value="146" />
           <entry key="HTML" value="10" />
           <entry key="JSON" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="35" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="588" />
+          <entry key="Python Console" value="675" />
           <entry key="dummy" value="14" />
           <entry key="gitignore" value="13" />
-          <entry key="py" value="5787" />
-          <entry key="txt" value="463" />
+          <entry key="py" value="6296" />
+          <entry key="txt" value="502" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="490" />
-          <entry key="Python" value="6375" />
+          <entry key="PLAIN_TEXT" value="529" />
+          <entry key="Python" value="6971" />
         </counts>
       </usages-collector>
     </session>
@@ -88,70 +106,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/SNAP_text2csv.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igraph_result/1138_bus_cc.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/igraph_result/3elt_cc.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultDataset/3elt.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260566">
-              <caret line="13714" column="9" lean-forward="true" selection-start-line="13714" selection-start-column="9" selection-end-line="13714" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="75" column="76" lean-forward="true" selection-start-line="75" selection-start-column="76" selection-end-line="75" selection-end-column="76" />
+            <state relative-caret-position="78">
+              <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1561557715454" expanded="true" signature="113:250" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/snap_cc.py">
+        <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="-397">
+              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
-                <element signature="e#41#52#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout_position/experiment_gephi_save.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
               </folding>
             </state>
           </provider>
@@ -204,7 +198,10 @@
         <option value="$PROJECT_DIR$/pycode/main.py" />
         <option value="$PROJECT_DIR$/pycode/snap_cc.py" />
         <option value="$PROJECT_DIR$/pycode/QualityMeasureCom.py" />
+        <option value="$PROJECT_DIR$/pycode/processGEXF.py" />
+        <option value="$PROJECT_DIR$/layout_position/experiment_save.txt" />
         <option value="$PROJECT_DIR$/pycode/QualityMeasure.py" />
+        <option value="$PROJECT_DIR$/pycode/QualityMeasureGephi.py" />
       </list>
     </option>
   </component>
@@ -215,10 +212,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1066" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -263,16 +260,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\PyCharm workspace\dataHandle\dataset" />
-      <recent name="E:\PyCharm workspace\dataHandle\pycode" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PyCharm workspace\dataHandle\pycode" />
       <recent name="E:\PyCharm workspace\dataHandle\layout_position" />
       <recent name="E:\PyCharm workspace\dataHandle\dataset" />
       <recent name="E:\PyCharm workspace\dataHandle\PosData" />
       <recent name="E:\PyCharm workspace\dataHandle\igraph_result" />
-      <recent name="E:\PyCharm workspace\dataHandle\resultDataset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PyCharm workspace\dataHandle\dataset" />
+      <recent name="E:\PyCharm workspace\dataHandle\pycode" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -292,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QualityMeasure">
+  <component name="RunManager" selected="Python.QualityMeasureGephi">
     <configuration name="QualityMeasure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -337,7 +334,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="experimentResult2Json" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="QualityMeasureGephi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -350,7 +347,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/experimentResult2Json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/QualityMeasureGephi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -406,17 +403,17 @@
     <list>
       <item itemvalue="Python.mtx2csv" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.experimentResult2Json" />
       <item itemvalue="Python.QualityMeasureCom" />
       <item itemvalue="Python.QualityMeasure" />
+      <item itemvalue="Python.QualityMeasureGephi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.QualityMeasureGephi" />
         <item itemvalue="Python.QualityMeasure" />
         <item itemvalue="Python.QualityMeasureCom" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.mtx2csv" />
-        <item itemvalue="Python.experimentResult2Json" />
       </list>
     </recent_temporary>
   </component>
@@ -557,13 +554,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555039191034</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="完成了QNoack布局质量指标评价的代码，并且测试成功">
+      <created>1561558100520</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1561558100520</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27261615" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27567238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -576,10 +581,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32772166" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.3445567" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.4298541" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49840087" weight="0.33108866" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50053304" side_tool="true" weight="0.34636265" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.34636265" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49840087" weight="0.33108866" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -662,97 +667,10 @@
     <MESSAGE value="又增加了两个稀疏矩阵的数据" />
     <MESSAGE value="添加了pyecharts的图表绘制代码" />
     <MESSAGE value="增加了实验结果的csv2json和json2csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加了实验结果的csv2json和json2csv" />
+    <MESSAGE value="完成了QNoack布局质量指标评价的代码，并且测试成功" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了QNoack布局质量指标评价的代码，并且测试成功" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resultDataset/Slashdot0902_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/twitter_combined_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/web_Google_pg_cc.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/web_NotreDame_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/web_Stanford_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/zhishi_baidu_relatedpages_pg_cc.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/Cit_HepTh_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/zhishi_baidu_internallink.csv">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/gplus_combined_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/closeness_centralityCompute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/zhishi_baidu_relatedpages_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/Cit_HepTh_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/Cit_HepTh_pg.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/Cit_HepTh.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/bcsstk31.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11561078" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/3elt.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/igraph_result/bcsstk31_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/bcsstk31.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10884936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/bcsstk31_pg.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/bcsstk31_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultDataset/1138_bus_pg_cc.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PosData/3elt.csv_5000.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/render.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="139">
@@ -788,13 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="24" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -849,20 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/mtx2csv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="36" column="30" selection-start-line="36" selection-start-column="30" selection-end-line="36" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -894,13 +795,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/pandas_igraph_compute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/igraph_compute.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -911,14 +805,7 @@
     <entry file="file://$PROJECT_DIR$/resultDataset/3elt.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260566">
-          <caret line="13714" column="9" lean-forward="true" selection-start-line="13714" selection-start-column="9" selection-end-line="13714" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <caret line="13714" column="9" selection-start-line="13714" selection-start-column="9" selection-end-line="13714" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -929,23 +816,156 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/3elt.csv_500.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/fe_4elt2.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/facebook_combined2.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/commanche_dual.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/Blogs.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/web_Google.csv_5000.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/web_NotreDame.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/web_Stanford.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_500.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/web_Google.csv_500.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/twitter_combined.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/zhishi_baidu_relatedpages.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/Email_EuAll.csv_500.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/1138_bus.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/Program Files/Python37/Lib/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1353">
+          <caret line="2202" column="4" selection-start-line="2202" selection-start-column="4" selection-end-line="2202" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/processGEXF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/Email_EuAll.csv_5000.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/pandas_igraph_compute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/closeness_centralityCompute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="44" column="28" selection-start-line="44" selection-end-line="44" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/snap_cc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+        <state relative-caret-position="344">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="e#41#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
+    <entry file="file://$PROJECT_DIR$/pycode/testTime.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="75" column="76" lean-forward="true" selection-start-line="75" selection-start-column="76" selection-end-line="75" selection-end-column="76" />
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/pageRankCompute.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/experiment_save.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-397">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1561557715454" expanded="true" signature="113:250" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/experiment_gephi_save.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="154" lean-forward="true" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
           </folding>
         </state>
       </provider>
