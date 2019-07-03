@@ -1,6 +1,5 @@
 import csv
 import json
-import csv2json
 
 _CSV = ".csv"
 _JSON = ".json"
@@ -29,7 +28,7 @@ def transfer(csvEdgeFileName, csvPosFileName):
     for pos in reader_pos:
         # 讲每个节点的id作为key，x和y作为value存入dict
         # print(pos)
-        posList.append({'x': float(pos[1]), 'y': (pos[2])})
+        posList.append({'x': float(pos[1]), 'y': float(pos[2])})
 
     print("边数据处理: " + csvEdgeFileName)
 
