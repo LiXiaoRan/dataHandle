@@ -1,20 +1,32 @@
 import csv
 import json
+import os
 
 _CSV = ".csv"
 _JSON = ".json"
 
 
-def transfer(csvEdgeFileName, csvPosFileName):
+def transfer(csvEdgeFileName, csvPosFileName, gephi=False):
     EDGE_FILE_PATH = "../resultDataset/"
     POS_FILE_PATH = "../layout_position/"
+    POS_FILE_PATH_GEPHI = "E:/IWork/GPU-accelerate/builds/linux/gephiResult_csv/"
     JSON_FILE_OUT_PATH = "../JsonData/" + csvPosFileName + _JSON
-    FILE_OUT_PATH = POS_FILE_PATH + csvPosFileName + _JSON
 
     print("读取文件: " + csvEdgeFileName)
 
     graphFile = open(EDGE_FILE_PATH + csvEdgeFileName + _CSV, "r")
-    layoutFile = open(POS_FILE_PATH + csvPosFileName + _CSV, "r")
+
+    if gephi:
+        layoutFile = open(POS_FILE_PATH_GEPHI + csvPosFileName + _CSV, "r")
+        JSON_FILE_OUT_PATH = "../JsonData/gephi/" + csvPosFileName + _JSON
+
+
+    else:
+        layoutFile = open(POS_FILE_PATH + csvPosFileName + _CSV, "r")
+
+    # if not os.path.exists(JSON_FILE_OUT_PATH):
+    #     os.mkdir(JSON_FILE_OUT_PATH)
+
     jsonFile = open(JSON_FILE_OUT_PATH, "w")
 
     reader_edge = csv.reader(graphFile)
@@ -44,7 +56,7 @@ def transfer(csvEdgeFileName, csvPosFileName):
     jsonFile.write(json_data)
     jsonFile.close()
 
-    print(csvEdgeFileName + " 操作 完毕 ！ ")
+    print(csvPosFileName + " 操作 完毕 ！ ")
 
 
 # transfer('3elt', '3elt.csv_500')
@@ -54,5 +66,34 @@ transferFileList = [['3elt', '3elt.csv_500', ], ['1138_bus', '1138_bus.csv_5000'
                     ['facebook_combined2', 'facebook_combined2.csv_5000'], ['fe_4elt2', 'fe_4elt2.csv_5000'],
                     ['twitter_combined', 'twitter_combined.csv_5000']]
 
-for fun in transferFileList:
-    transfer(fun[0], fun[1])
+# for fun in transferFileList:
+#     transfer(fun[0], fun[1])
+
+transferFileList_gephi = [
+    ['3elt', '3elt/FruchtermanReingoldLayout'],
+    ['3elt', '3elt/OpenOrdLayout'],
+    ['3elt', '3elt/YifanHuLayout'],
+
+    ['1138_bus', '1138_bus/FruchtermanReingoldLayout'],
+    ['1138_bus', '1138_bus/OpenOrdLayout'],
+    ['1138_bus', '1138_bus/YifanHuLayout'],
+
+    ['commanche_dual', 'commanche_dual/FruchtermanReingoldLayout'],
+    ['commanche_dual', 'commanche_dual/OpenOrdLayout'],
+    ['commanche_dual', 'commanche_dual/YifanHuLayout'],
+
+    ['facebook_combined2', 'facebook_combined2/FruchtermanReingoldLayout'],
+    ['facebook_combined2', 'facebook_combined2/OpenOrdLayout', ],
+    ['facebook_combined2', 'facebook_combined2/YifanHuLayout', ],
+
+    ['fe_4elt2', 'fe_4elt2/FruchtermanReingoldLayout'],
+    ['fe_4elt2', 'fe_4elt2/OpenOrdLayout'],
+    ['fe_4elt2', 'fe_4elt2/YifanHuLayout'],
+
+    ['twitter_combined', 'twitter_combined/OpenOrdLayout'],
+    ['twitter_combined', 'twitter_combined/YifanHuLayout'],
+
+]
+
+for fun in transferFileList_gephi:
+    transfer(fun[0], fun[1], True)
