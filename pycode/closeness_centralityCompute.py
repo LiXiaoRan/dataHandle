@@ -42,20 +42,20 @@ def closeness_centrality_compute(FILE_NAME):
 
 
 # closeness_centrality_compute("Email_EuAll")
-# closeness_centrality_compute("gplus_combined")
+closeness_centrality_compute("zhishi_baidu_relatedpages")
 # closeness_centrality_compute("Slashdot0902")
 # closeness_centrality_compute("twitter_combined")
 # closeness_centrality_compute("web_Google")
 # closeness_centrality_compute("web_NotreDame")
 # closeness_centrality_compute("web_Stanford")
 
-# Make the Pool of workers
-pool = ThreadPool(24)
-# Open the urls in their own threads
-# and return the results
-results = pool.map(closeness_centrality_compute,
-                   ["Email_EuAll", "gplus_combined", "Slashdot0902", "twitter_combined", "web_Google", "web_NotreDame",
-                    "web_Stanford"])
-# close the pool and wait for the work to finish
-pool.close()
-pool.join()
+# # Make the Pool of workers
+# pool = ThreadPool(24)
+# # Open the urls in their own threads
+# # and return the results
+# results = pool.map(closeness_centrality_compute,
+#                    ["Email_EuAll", "gplus_combined", "Slashdot0902", "twitter_combined", "web_Google", "web_NotreDame",
+#                     "web_Stanford"])
+# # close the pool and wait for the work to finish
+# pool.close()
+# pool.join()

@@ -1,2 +1,4 @@
 /dataset/gplus_combined.csv
 /resultDataset/gplus_combined*
+pycode/__pycache__/
+.idea/workspace.xml

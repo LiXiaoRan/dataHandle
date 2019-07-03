@@ -27,7 +27,7 @@ def test2csv(FILENAME):
     for item in reader:
         # result = item[0].split(' ')
         # 如果数据中间间距远一般用下面的\t
-        result = item[0].split('\t')
+        result = item[0].split(' ')
         list_item = {'source': result[0], 'target': result[1]}
         print(list_item)
         list.append(list_item)
