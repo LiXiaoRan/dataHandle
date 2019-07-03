@@ -29,12 +29,12 @@ def transfer(csvEdgeFileName, csvPosFileName):
     for pos in reader_pos:
         # 讲每个节点的id作为key，x和y作为value存入dict
         # print(pos)
-        posList.append({'x': pos[1], 'y': pos[2]})
+        posList.append({'x': float(pos[1]), 'y': (pos[2])})
 
     print("边数据处理: " + csvEdgeFileName)
 
     for link in reader_edge:
-        edgeList.append({'source': link[0], 'target': link[1]})
+        edgeList.append({'source': int(link[0]), 'target': int(link[1])})
 
     data = {'nodes': posList, 'links': edgeList}
 
