@@ -103,6 +103,7 @@ arguments = [
 # ['Email_EuAll.csv_500', 'Email_EuAll'], ['Email_EuAll.csv_5000', 'Email_EuAll']
 # quality('Email_EuAll.csv_500', 'Email_EuAll')
 quality('Email_EuAll.csv_5000', 'Email_EuAll')
+
 # quality('Email_EuAll.csv_500', 'Email_EuAll')
 # for arr in arguments:
 #     print(arr[1]+" 数据正在被计算")

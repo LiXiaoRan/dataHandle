@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="" />
+    <list default="true" id="622de1d5-8a6b-43bd-a014-69afc4374eb5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PosData/3elt.csv_5000.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycode/QualityMeasure.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/QualityMeasure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pycode/csv2structJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/pycode/csv2structJson.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,8 +16,9 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dataHandle$testTime.coverage" NAME="testTime Coverage Results" MODIFIED="1548332450736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$combine_data.coverage" NAME="combine_data Coverage Results" MODIFIED="1553523230555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$csv2structJson.coverage" NAME="csv2structJson Coverage Results" MODIFIED="1562138352519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$QualityMeasureCom.coverage" NAME="QualityMeasureCom Coverage Results" MODIFIED="1561462888328" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
-    <SUITE FILE_PATH="coverage/dataHandle$QualityMeasure.coverage" NAME="QualityMeasure Coverage Results" MODIFIED="1561903091616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
+    <SUITE FILE_PATH="coverage/dataHandle$QualityMeasure.coverage" NAME="QualityMeasure Coverage Results" MODIFIED="1562074715960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$pandas_igraph_compute.coverage" NAME="pandas_igraph_compute Coverage Results" MODIFIED="1548334627564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$mtx2csv.coverage" NAME="mtx2csv Coverage Results" MODIFIED="1557129120985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
     <SUITE FILE_PATH="coverage/dataHandle$igraph_compute.coverage" NAME="igraph_compute Coverage Results" MODIFIED="1548166715601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pycode" />
@@ -36,32 +42,32 @@
           <entry key="project.open.time.19" value="4" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="146" />
+          <entry key="csv" value="149" />
           <entry key="gitignore" value="5" />
           <entry key="html" value="10" />
-          <entry key="json" value="2" />
+          <entry key="json" value="3" />
           <entry key="md" value="1" />
-          <entry key="py" value="44" />
-          <entry key="txt" value="18" />
+          <entry key="py" value="45" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="146" />
+          <entry key="CSV" value="149" />
           <entry key="HTML" value="10" />
-          <entry key="JSON" value="2" />
+          <entry key="JSON" value="3" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="44" />
+          <entry key="PLAIN_TEXT" value="24" />
+          <entry key="Python" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -69,14 +75,14 @@
           <entry key="Python Console" value="675" />
           <entry key="dummy" value="14" />
           <entry key="gitignore" value="13" />
-          <entry key="py" value="6296" />
-          <entry key="txt" value="532" />
+          <entry key="py" value="6648" />
+          <entry key="txt" value="538" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="559" />
-          <entry key="Python" value="6971" />
+          <entry key="PLAIN_TEXT" value="565" />
+          <entry key="Python" value="7323" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +92,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
+            <state relative-caret-position="-1083">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -95,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pycode/csv2structJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="299">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -116,11 +122,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/layout_position/experiment_save.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+            <state relative-caret-position="2641">
+              <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
@@ -167,7 +182,6 @@
         <option value="$PROJECT_DIR$/pycode/pandas_igraph_compute.py" />
         <option value="$PROJECT_DIR$/pycode/closeness_centralityCompute.py" />
         <option value="$PROJECT_DIR$/pycode/combine_data.py" />
-        <option value="$PROJECT_DIR$/pycode/csv2structJson.py" />
         <option value="$PROJECT_DIR$/pycode/drawCharts.py" />
         <option value="$PROJECT_DIR$/pycode/line.html" />
         <option value="$PROJECT_DIR$/pycode/json2CSV.py" />
@@ -178,8 +192,10 @@
         <option value="$PROJECT_DIR$/pycode/QualityMeasureCom.py" />
         <option value="$PROJECT_DIR$/pycode/processGEXF.py" />
         <option value="$PROJECT_DIR$/layout_position/experiment_save.txt" />
-        <option value="$PROJECT_DIR$/pycode/QualityMeasure.py" />
         <option value="$PROJECT_DIR$/pycode/QualityMeasureGephi.py" />
+        <option value="$PROJECT_DIR$/pycode/QualityMeasure.py" />
+        <option value="$PROJECT_DIR$/JsonData/3elt.csv_500.json" />
+        <option value="$PROJECT_DIR$/pycode/csv2structJson.py" />
       </list>
     </option>
   </component>
@@ -211,12 +227,12 @@
             <path>
               <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataHandle" type="462c0819:PsiDirectoryNode" />
-              <item name="layout_position" type="462c0819:PsiDirectoryNode" />
+              <item name="JsonData" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
               <item name="dataHandle" type="462c0819:PsiDirectoryNode" />
-              <item name="pycode" type="462c0819:PsiDirectoryNode" />
+              <item name="layout_position" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dataHandle" type="b2602c69:ProjectViewProjectNode" />
@@ -267,7 +283,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.QualityMeasureGephi">
+  <component name="RunManager" selected="Python.csv2structJson">
     <configuration name="QualityMeasure" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -334,6 +350,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="csv2structJson" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="dataHandle" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/csv2structJson.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="dataHandle" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -356,42 +394,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mtx2csv" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="dataHandle" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pycode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pycode/mtx2csv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.mtx2csv" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.QualityMeasureCom" />
       <item itemvalue="Python.QualityMeasure" />
       <item itemvalue="Python.QualityMeasureGephi" />
+      <item itemvalue="Python.csv2structJson" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.QualityMeasureGephi" />
+        <item itemvalue="Python.csv2structJson" />
         <item itemvalue="Python.QualityMeasure" />
+        <item itemvalue="Python.QualityMeasureGephi" />
         <item itemvalue="Python.QualityMeasureCom" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.mtx2csv" />
       </list>
     </recent_temporary>
   </component>
@@ -546,14 +562,21 @@
       <option name="project" value="LOCAL" />
       <updated>1562072066407</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="添加实验室局">
+      <created>1562073289593</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1562073289593</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -566,7 +589,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.32899022" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.32772166" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.41585234" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="10" sideWeight="0.49946696" visible="true" weight="0.41476655" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053304" side_tool="true" weight="0.34636265" />
       <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49840087" weight="0.33108866" />
@@ -654,16 +677,10 @@
     <MESSAGE value="增加了实验结果的csv2json和json2csv" />
     <MESSAGE value="完成了QNoack布局质量指标评价的代码，并且测试成功" />
     <MESSAGE value="完成了QNoack布局质量指标评价的代码，已经计算了中小型网络，本算法个gephi中的对比算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成了QNoack布局质量指标评价的代码，已经计算了中小型网络，本算法个gephi中的对比算法" />
+    <MESSAGE value="添加实验室局" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加实验室局" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pycode/render.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="26" column="4374" selection-start-line="26" selection-start-column="4374" selection-end-line="26" selection-end-column="4374" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/line.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -675,13 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/csv2structJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -802,9 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout_position/3elt.csv_500.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/layout_position/fe_4elt2.csv_5000.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -899,29 +906,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/layout_position/experiment_save.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="92" column="16" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pycode/combine_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2641">
+          <caret line="142" column="38" selection-start-line="142" selection-start-column="38" selection-end-line="142" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/3elt.csv_500.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JsonData/3elt.csv_500.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="18883" column="11" lean-forward="true" selection-start-line="18883" selection-start-column="11" selection-end-line="18883" selection-end-column="11" />
+          <folding>
+            <element signature="e#13#263257#0" />
           </folding>
         </state>
       </provider>
@@ -933,13 +947,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasureGephi.py">
+    <entry file="file://$PROJECT_DIR$/pycode/QualityMeasure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
+        <state relative-caret-position="-1083">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1562033920119" expanded="true" signature="3950:3979" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/layout_position/experiment_save.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pycode/csv2structJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
