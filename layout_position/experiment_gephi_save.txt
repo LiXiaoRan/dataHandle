@@ -1,9 +1,7 @@
 
 1138_bus/YifanHuLayout布局质量为：1.3397852840724076
 
-1138_bus/YifanHuLayout布局质量为：1.3397852840724076
 
-1138_bus/YifanHuLayout布局质量为：1.3397852840724076
 
 facebook_combined2/OpenOrdLayout布局质量为：1.586669343525228
 
@@ -32,3 +30,7 @@ fe_4elt2/FruchtermanReingoldLayout布局质量为：1.48676204423871
 1138_bus/FruchtermanReingoldLayout布局质量为：1.284267757676938
 
 1138_bus/OpenOrdLayout布局质量为：1.6444731781066932
+
+facebook_combined2/FruchtermanReingoldLayout布局质量为：1.9388826968212844
+
+twitter_combined/OpenOrdLayout布局质量为：-6.300739677535834

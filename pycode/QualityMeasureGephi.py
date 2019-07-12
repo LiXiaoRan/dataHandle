@@ -74,7 +74,8 @@ def quality(LAYOUT_FILE_NAME, GRAPH_FILE_NAME):
         targetPos = posList[next(index for (index, d) in enumerate(posList) if d["id"] == link['target'])]['position']
         sumLinkDistance += calEuclideanDistance(sourcePos, targetPos)
         # print('Total sumLinkDistance percent: {:.2%}'.format(float(countNum) / float(linksLength)))
-        countNum += 1
+        # countNum += 1
+
         # print("sumLinkDistance is ", sumLinkDistance)
 
     # 计算布局质量
@@ -150,5 +151,5 @@ arguments2 = ['3elt', '3elt', '3elt', 'commanche_dual', 'commanche_dual', 'comma
 # pool.close()
 # pool.join()
 
-quality('1138_bus/FruchtermanReingoldLayout', '1138_bus')
-quality('1138_bus/OpenOrdLayout', '1138_bus')
+quality('twitter_combined/OpenOrdLayout', 'twitter_combined')
+# quality('1138_bus/OpenOrdLayout', '1138_bus')
